@@ -1,7 +1,5 @@
-//YOU MAY NOT MODIFY THIS DOCUMENT
-/*
-*/
-#pragma once
+
+pragma once
 
 #include "NodeInterface.h"
 
@@ -12,11 +10,8 @@ public:
 	AVLInterface() {}
 	virtual ~AVLInterface() {}
 
-	//Please note that the class that implements this interface must be made
-	//of objects which implement the NodeInterface
 
-	/*
-	* Returns the root node for this tree
+	/* Returns the root node for this tree
 	*
 	* @return the root node for this tree.
 	*/
