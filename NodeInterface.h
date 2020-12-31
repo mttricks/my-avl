@@ -1,6 +1,4 @@
-//YOU MAY NOT MODIFY THIS DOCUMENT
-/*
-*/
+
 #pragma once
 using namespace std;
 
@@ -33,11 +31,7 @@ public:
 
 	/*
 	* Returns the height of this node. The height is the number of nodes
-	* along the longest path from this node to a leaf.  While a conventional
-	* interface only gives information on the functionality of a class and does
-	* not comment on how a class should be implemented, this function has been
-	* provided to point you in the right direction for your solution.  For an
-	* example on height, see page 448 of the text book.
+	* along the longest path from this node to a leaf. 
 	*
 	* @return the height of this tree with this node as the local root.
 	*/
